@@ -27,7 +27,7 @@ Route::get('/', function () {
 Route::get('/post',Post::class);
 
 // Rotta User
-Route::get('/user',User::class);
+Route::get('/users',User::class);
 
 // Rotta home
 Route::get('/home/{name?}',Home::class);
@@ -43,3 +43,4 @@ Route::get('/product',Product::class);
 
 // Rotta contact
 Route::get('/contact',Contact::class);
+
